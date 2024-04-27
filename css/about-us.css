@@ -1,0 +1,33 @@
+.main-bg {
+    background-image: url(../images/background-2.svg);
+    background-size: cover;
+    height: fit-content;
+}
+
+#staff-carousel {
+    height: 700px;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 45%;
+  bottom: 40%;
+  width: fit-content;
+  background: white;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 45%;
+  bottom: 40%;
+  width: fit-content;
+  background: white;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 1;
+}
