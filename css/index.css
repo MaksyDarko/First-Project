@@ -33,11 +33,11 @@
   padding: 20px 20px;
   width: 700px;
   margin-top: -20px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .main__upcoming-match:hover {
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 
 .main__project {
@@ -94,9 +94,13 @@
 }
 
 .project-hover {
-  transition: transform 0.2s ease ease-in-out;
+  transition: transform 0.1s ease ease-in-out;
 }
 
 .project-hover:hover {
   transform: scale(1.02);
+}
+
+.project-hover:hover h4 {
+  font-weight: 700;
 }

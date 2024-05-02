@@ -210,3 +210,19 @@
 .project-hover:hover {
   transform: scale(1.02);
 }
+
+.project-hover:hover h3 {
+  font-weight: 700;
+}
+
+.project-hover:hover p {
+  font-weight: 500;
+}
+
+.project-hover:hover a {
+  font-weight: 600;
+}
+
+.slow-carousel .carousel-item {
+  transition-duration: 20s;
+}
