@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/common.css" />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="css/matches.css" />
   </head>
   <body class="monserrat-400">
@@ -25,15 +26,13 @@
           </div>
 
           <div class="hstack gap-5 me-5">
-            <div class="mb-1">
-              <a class="text-white text-decoration-none" href="#">ENG</a>
-              <a class="text-white text-decoration-none" href="#">MKD</a>
-            </div>
-
             <div class="hstack gap-3 fs-5">
-              <a class="text-white" href="#"><i class="bi bi-facebook"></i></a>
-              <a class="text-white" href="#"><i class="bi bi-instagram"></i></a>
-              <a class="text-white" href="#"><i class="bi bi-youtube"></i></a>
+              <a class="text-white" href="https://www.facebook.com/zfkborec/"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a class="text-white" href="https://www.instagram.com/zfk_borec/"
+                ><i class="bi bi-instagram"></i
+              ></a>
             </div>
           </div>
         </section>
@@ -110,7 +109,7 @@
     <main class="main pt-5">
       <!-- Highlighted Information -->
       <div class="container mb-5">
-        <h3 class="monserrat-700 text-color m-0">СЛЕДНИ МЕЧОВИ</h3>
+        <h3 class="monserrat-700 text-color m-0">ПОСЛЕДНИ РЕЗУЛТАТИ</h3>
 
         <p class="text-color m-0">ПРОЛЕТЕН ДЕЛ</p>
       </div>
@@ -120,44 +119,47 @@
         <!-- 1st Match -->
         <div class="d-flex justify-content-center mb-5">
           <div class="first-match">
-            <img
-              class="team-img"
-              src="images/team-pobeda.svg"
-              alt="team-pobeda"
-            />
-            <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Борец“ - „Победа“</p>
-              <p class="monserrat-200">16.03.2024</p>
-            </div>
             <img class="team-img" src="images/logo.svg" alt="logo" />
+            <div class="vstack justify-content-center">
+              <p class="monserrat-700">„Борец“ - „Порече“</p>
+              <p class="monserrat-600">2 - 4</p>
+              <p class="monserrat-200">27.04.2024</p>
+            </div>
+            <img class="team-img" src="images/porece.svg" alt="team-porece" />
           </div>
         </div>
 
         <!-- 2nd Match -->
         <div class="d-flex justify-content-center mb-5">
           <div class="second-match">
-            <img class="team-img" src="images/logo.svg" alt="logo" />
-            <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Борец“ - „Билјанини извори“</p>
-              <p class="monserrat-200">23.03.2024</p>
-            </div>
             <img
               class="team-img"
-              src="images/biljanini-izvori.svg"
-              alt="biljanini-izvori"
+              src="images/plackovica.svg"
+              alt="team-plackovica"
             />
+            <div class="vstack justify-content-center">
+              <p class="monserrat-700">„Плачковица“ - „Борец“</p>
+              <p class="monserrat-600">1 - 2</p>
+              <p class="monserrat-200">21.04.2024</p>
+            </div>
+            <img class="team-img" src="images/logo.svg" alt="logo" />
           </div>
         </div>
 
         <!-- 3rd Match -->
         <div class="d-flex justify-content-center mb-5">
           <div class="third-match">
-            <img class="team-img" src="images/vardar.svg" alt="vardar" />
-            <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Вардар“ - „Борец“</p>
-              <p class="monserrat-200">30.03.2024</p>
-            </div>
             <img class="team-img" src="images/logo.svg" alt="logo" />
+            <div class="vstack justify-content-center">
+              <p class="monserrat-700">„Борец“ - „Атлетико“</p>
+              <p class="monserrat-600">0 - 13</p>
+              <p class="monserrat-200">13.04.2024</p>
+            </div>
+            <img
+              class="team-img"
+              src="images/atletiko.svg"
+              alt="team-atletiko"
+            />
           </div>
         </div>
 
@@ -167,6 +169,7 @@
             <img class="team-img" src="images/kocani.png" alt="kocani" />
             <div class="vstack justify-content-center">
               <p class="monserrat-700">„Кочани“ - „Борец“</p>
+              <p class="monserrat-600">3 - 1</p>
               <p class="monserrat-200">06.04.2024</p>
             </div>
             <img class="team-img" src="images/logo.svg" alt="logo" />
@@ -176,40 +179,30 @@
         <!-- 5th Match -->
         <div class="d-flex justify-content-center mb-5">
           <div class="fifth-match">
-            <img class="team-img" src="images/logo.svg" alt="logo" />
+            <img class="team-img" src="images/vardar.svg" alt="team-vardar" />
             <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Борец“ - „Атлетико“</p>
-              <p class="monserrat-200">13.04.2024</p>
+              <p class="monserrat-700">„Вардар“ - „Борец“</p>
+              <p class="monserrat-600">8 - 0</p>
+              <p class="monserrat-200">30.03.2024</p>
             </div>
-            <img class="team-img" src="images/atletiko.svg" alt="atletiko" />
+            <img class="team-img" src="images/logo.svg" alt="logo" />
           </div>
         </div>
 
         <!-- 6th Match -->
         <div class="d-flex justify-content-center mb-5">
           <div class="sixth-match">
+            <img class="team-img" src="images/logo.svg" alt="logo" />
+            <div class="vstack justify-content-center">
+              <p class="monserrat-700">„Борец“ - „Билјанини Извори“</p>
+              <p class="monserrat-600">0 - 4</p>
+              <p class="monserrat-200">23.03.2024</p>
+            </div>
             <img
               class="team-img"
-              src="images/plackovica.svg"
-              alt="plackovica"
+              src="images/biljanini-izvori.svg"
+              alt="team-biljanini-izvori"
             />
-            <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Плачковица“ - „Борец“</p>
-              <p class="monserrat-200">20.04.2024</p>
-            </div>
-            <img class="team-img" src="images/logo.svg" alt="logo" />
-          </div>
-        </div>
-
-        <!-- 7th Match -->
-        <div class="d-flex justify-content-center mb-5">
-          <div class="seventh-match">
-            <img class="team-img" src="images/porece.svg" alt="porece" />
-            <div class="vstack justify-content-center">
-              <p class="monserrat-700">„Порече“ - „Борец“</p>
-              <p class="monserrat-200">27.04.2024</p>
-            </div>
-            <img class="team-img" src="images/logo.svg" alt="logo" />
           </div>
         </div>
       </div>
@@ -245,7 +238,7 @@
             <img class="footer__logo" src="images/logo.svg" alt="logo" />
           </div>
 
-          <div class="col-7">
+          <div class="col-9">
             <div class="row">
               <div class="col-4 py-5">
                 <h3 class="monserrat-700 text-white mb-3">Информирај се</h3>
@@ -306,17 +299,6 @@
                   >
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-2">
-            <div class="hstack py-5 gap-3 text-white">
-              <a href="#" class="footer-link text-decoration-none monserrat-200"
-                >ENG</a
-              >
-              <a href="#" class="footer-link text-decoration-none monserrat-200"
-                >MKD</a
-              >
             </div>
           </div>
         </div>
