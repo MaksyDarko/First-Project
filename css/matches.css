@@ -1,66 +1,44 @@
 .team-img {
-    height: 300px;
-    width: 200px;
+  height: 300px;
+  width: 200px;
 }
 
 .first-match {
   display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  gap: 30px;
-  background: linear-gradient(
-    136.09deg,
-    #a41f23 2.09%,
-    rgba(164, 31, 35, 0.822917) 28.08%,
-    rgba(164, 31, 35, 0.582064) 62.31%,
-    rgba(164, 31, 35, 0.390542) 78.82%,
-    rgba(164, 31, 35, 0) 99.81%
-  );
+  background: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
   border-radius: 30px;
-
   font-size: 30px;
   padding: 20px 100px;
   margin-top: -20px;
   width: 100%;
+  color: #fff;
 }
 
-.second-match ,
-.fourth-match ,
+.second-match,
+.fourth-match,
 .sixth-match {
   display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  gap: 30px;
-  background: #e1dede;
+  background: linear-gradient(135deg, #283048 0%, #859398 100%);
   border-radius: 30px;
-
   font-size: 30px;
   padding: 20px 100px;
   margin-top: -20px;
   width: 100%;
+  color: #fff;
 }
 
-.third-match ,
-.fifth-match ,
+.third-match,
+.fifth-match,
 .seventh-match {
   display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  gap: 30px;
-  background: linear-gradient(
-    135.49deg,
-    #f8f0f1 1.87%,
-    rgba(248, 240, 241, 0.679253) 38.93%,
-    rgba(248, 240, 241, 0.396254) 68.8%,
-    rgba(248, 240, 241, 0) 97.36%
-  );
+  background: linear-gradient(135deg, #00bf8f 0%, #001510 100%);
   border-radius: 30px;
-
   font-size: 30px;
   padding: 20px 100px;
   margin-top: -20px;
   width: 100%;
+  color: #fff;
 }

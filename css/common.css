@@ -99,19 +99,21 @@
 
 .header-link {
   color: #f8f0f1;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .header-link:hover {
-  color: black !important;
-  background-color: white;
-  border-radius: 20px;
+  color: white !important;
+  background-color: #a41f23;
+  border-radius: 15px;
+  font-weight: 600;
 }
 
 .header-link:active {
   color: white !important;
-  background-color: black;
-  border-radius: 20px;
+  background-color: #a41f30;
+  border-radius: 15px;
+  font-weight: 600;
 }
 
 .dropdown-menu[data-bs-popper] {
@@ -120,21 +122,31 @@
   left: -50px;
   color: white;
 }
+
+.dropdown-menu[data-bs-popper]:hover {
+  background: rgba(164, 31, 35, 0.8);
+  opacity: 1;
+  left: -50px;
+  color: white;
+}
+
 .dropdown-item {
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .dropdown-item:hover {
-  background: white;
-  color: black;
-  border-radius: 20px;
+  background: #a41f23;
+  color: white;
+  border-radius: 15px;
+  font-weight: 600;
 }
 
 .dropdown-item:active {
-  background: black;
+  background: #a41f30;
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
+  font-weight: 600;
 }
 
 .header__logo {
@@ -180,8 +192,8 @@
 
 .footer-link {
   color: #f8f0f1;
-  border-radius: 20px;
-  padding: 3px;
+  border-radius: 15px;
+  padding: 3px 10px;
 }
 
 .footer-link:hover {
@@ -189,6 +201,7 @@
   background-color: white;
   width: fit-content;
   border-radius: 20px;
+  font-weight: 600;
 }
 
 .footer-link:active {
@@ -196,6 +209,7 @@
   background-color: black;
   border-radius: 20px;
   width: fit-content;
+  font-weight: 600;
 }
 
 .active-page {
@@ -225,4 +239,41 @@
 
 .slow-carousel .carousel-item {
   transition-duration: 20s;
+}
+
+.text-hover {
+  color: black;
+  transition: color 0.5s ease-in;
+  width: fit-content;
+}
+
+.text-hover:hover {
+  color: #a41f23;
+  text-shadow: 3px 3px 3px #333;
+  font-weight: 600;
+}
+
+.icon-hover {
+  color: white;
+  font-size: 25px;
+  transition: color 0.5s ease-in;
+}
+
+.icon-hover:hover {
+  color: black;
+  text-shadow: 3px 3px 3px #333;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.gallery-hover {
+  color: black;
+  transition: color 0.5s ease-in;
+
+}
+
+.gallery-hover:hover {
+  color: #a41f23;
+  font-weight: 600;
+  transform: scale(1.01);
 }
